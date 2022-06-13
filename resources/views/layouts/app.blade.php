@@ -11,14 +11,14 @@
     <title><?php echo $title ?> | EmiFoodLovers</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Styles -->
-    <link href="css/bootstrap-glyphicons.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-glyphicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/materialdesignicons.min.css') }}" rel="stylesheet">
     
     @stack("extra-css")
-    <link href="css/theme/app.css" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
-    <link href="css/theme/colors/blue.css" id="theme" rel="stylesheet">
+    <link href="{{ asset('css/theme/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/theme/colors/blue.css') }}" id="theme" rel="stylesheet">
 </head>
 <body class="fix-header fix-sidebar card-no-border">
     <div class="preloader">
