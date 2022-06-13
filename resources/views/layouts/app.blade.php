@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ asset('img/brand/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ secure_asset('img/brand/favicon.png') }}">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title><?php echo $title ?> | EmiFoodLovers</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Styles -->
-    <link href="{{ asset('css/bootstrap-glyphicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/materialdesignicons.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/bootstrap-glyphicons.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/materialdesignicons.min.css') }}" rel="stylesheet">
     
     @stack("extra-css")
-    <link href="{{ asset('css/theme/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme/colors/blue.css') }}" id="theme" rel="stylesheet">
+    <link href="{{ secure_asset('css/theme/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/theme/colors/blue.css') }}" id="theme" rel="stylesheet">
 </head>
 <body class="fix-header fix-sidebar card-no-border">
     <div class="preloader">
@@ -38,7 +38,7 @@
                             <!-- Dark Logo icon -->
                             {{--<img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />--}}
                             <!-- Light Logo icon -->
-                            <img src="{{ asset("img/brand/Icon.png") }}" alt="homepage" class="light-logo" />
+                            <img src="{{ secure_asset("img/brand/Icon.png") }}" alt="homepage" class="light-logo" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
@@ -46,7 +46,7 @@
                          <!-- dark Logo text -->
                          {{--<img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />--}}
                          <!-- Light Logo text -->
-                         <img src="{{ asset("img/brand/Logo.png") }}" class="light-logo" alt="" /></span>
+                         <img src="{{ secure_asset("img/brand/Logo.png") }}" class="light-logo" alt="" /></span>
                     </a>
                 </div>
                 <div class="navbar-collapse">
@@ -216,17 +216,17 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.slimscroll.js') }}"></script>
-    <script src="{{ asset('js/waves.js') }}"></script>
-    <script src="{{ asset('js/sticky-kit.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.sparkline.min.js') }}"></script>
-    <script src="{{ asset('js/theme/custom.min.js') }}"></script>
-    <script src="{{ asset('js/moment.min.js') }}"></script>
-    <script src="{{ asset('js/HelperFunctions.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.slimscroll.js') }}"></script>
+    <script src="{{ secure_asset('js/waves.js') }}"></script>
+    <script src="{{ secure_asset('js/sticky-kit.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ secure_asset('js/theme/custom.min.js') }}"></script>
+    <script src="{{ secure_asset('js/moment.min.js') }}"></script>
+    <script src="{{ secure_asset('js/HelperFunctions.js') }}"></script>
+    <script src="{{ secure_asset('js/app.js') }}"></script>
     @stack('extra-js')
 </body>
 </html>
