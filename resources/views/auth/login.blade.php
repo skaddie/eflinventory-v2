@@ -4,11 +4,11 @@
 
 @section('content')
     <section id="wrapper">
-        <div class="login-register" style="background-image: url('{{ asset("img/auth/pexels_photo_26.jpeg") }}');">
+        <div class="login-register" style="background-image: url('{{ secure_asset("img/auth/pexels_photo_26.jpeg") }}');">
 
             <div class="mb-4 animated bounceIn" style="width: 150px; margin: 0 auto;">
                 <div class="" style="width: 100%;">
-                    <img src="{{ asset("img/brand/Logo.png") }}" class="img-fluid justify-content-center">
+                    <img src="{{ secure_asset("img/brand/Logo.png") }}" class="img-fluid justify-content-center">
                 </div>
             </div>
 
