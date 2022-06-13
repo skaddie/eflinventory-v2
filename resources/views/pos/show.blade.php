@@ -233,7 +233,9 @@
     <div class="pos">
         <div class="pos-top-header">
             <div class="pos-branding">
-                <img class="pos-logo img-fluid" src="{{ asset("img/brand/logo-pos.png") }}">
+            <a href="{{ route("index") }}">
+                <span class="pos-logo img-fluid">LARAVEL POS</span>
+            </a>
                 @if(Auth::check())
                     <a id="switchUser" class="username dropdown-toggle waves-effect waves-dark" href="#"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -254,7 +256,7 @@
                 @if(Auth::user()->authorizeRoles(["Manager"]))
                     <div class="right-header">
                         <div class="header-button">
-                            <a href="{{ route("index") }}">Return Home</a>
+                            <a hidden href="{{ route("index") }}">Return Home</a>
                         </div>
                     </div>
                 @endif

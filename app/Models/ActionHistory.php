@@ -45,9 +45,9 @@ class ActionHistory extends Model {
         return $history->save();
     }
 
-//    public static function GetHistory($user_id): array {
-//        return self::all()->where('user_id', $user_id)->all();
-//    }
+   public static function GetHistory($user_id): array {
+       return self::all()->where('user_id', $user_id)->all();
+   }
 
     // No need to add an update or delete function.
     // Why store the history of users' actions if only to modify or delete them later?

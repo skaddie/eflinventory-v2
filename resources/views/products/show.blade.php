@@ -56,17 +56,6 @@
 									</tr>
 								</thead>
 
-								<tfoot>
-									<tr>
-										<th>SKU</th>
-										<th>Product Name</th>
-										<th>Category</th>
-										<th>SubCategory</th>
-										<th>Stock</th>
-										<th>Retail Price</th>
-										<th>Actions</th>
-									</tr>
-								</tfoot>
 
 								<tbody>
 										@foreach($products as $product)
@@ -119,13 +108,13 @@
 										</div>
 									</dd>
 									<dt class="col-sm-4 text-right">Total Purchase:</dt>
-									<dd class="col-sm-8"><span style="text-decoration: line-through">N</span>375,050.00</dd>
+									<dd class="col-sm-8"><span style="text-decoration: ">₱</span>375,050.00</dd>
 									<dt class="col-sm-4 text-right">Total Sales:</dt>
-									<dd class="col-sm-8"><span style="text-decoration: line-through">N</span>350,411.65</dd>
+									<dd class="col-sm-8"><span style="text-decoration: ">₱</span>350,411.65</dd>
 									<dt class="col-sm-4 text-right">Total Profit:</dt>
-									<dd class="col-sm-8"><span style="text-decoration: line-through">N</span>87,500.00</dd>
+									<dd class="col-sm-8"><span style="text-decoration: ">₱</span>87,500.00</dd>
 									<dt class="col-sm-4 text-right">Total Loss:</dt>
-									<dd class="col-sm-8"><span style="text-decoration: line-through">N</span>750.00</dd>
+									<dd class="col-sm-8"><span style="text-decoration: ">₱</span>750.00</dd>
 									<dt class="col-sm-4 mt-4 text-right">Damaged Items:</dt>
 									<dd class="col-sm-8 mt-4">5</dd>
 									<dt class="col-sm-4 text-right">Expired Items:</dt>

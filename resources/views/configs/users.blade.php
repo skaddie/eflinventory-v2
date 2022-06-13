@@ -52,7 +52,7 @@ $page_title = "Users";
                                         <th>Username</th>
                                         <th>Status</th>
                                         <th>Last Login</th>
-                                        <th>User History</th>
+                                        <th hidden>User History</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -67,8 +67,8 @@ $page_title = "Users";
                                                 @if($user->is_staff)<label class="label label-success">Staff</label>@endif
                                             </td>
                                             <td>{{ \Carbon\Carbon::parse($user->last_login)->format("D, M j, Y g:i:s A") }}</td>
-                                            <td>
-                                                <button class="btn btn-info user-history">
+                                            <td hidden>
+                                                <button  class="btn btn-info user-history">
                                                     <i class="mdi mdi-eye"></i> View User History
                                                     {{--TODO: Add modal to show user history in form of a borderless & headerless table with columns as such: Action | Timestamp --}}
                                                 </button>

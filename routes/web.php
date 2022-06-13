@@ -106,7 +106,7 @@ Route::get('/pos/cart/delete/all', 'CartController@deleteAll')->name('cart.delet
 Route::delete('/pos/cart/delete/{id}', 'CartController@delete')->name('cart.delete');
 Route::get('/pos/cart', 'CartController@all')->name('cart.all');
 Route::get('/pos/cart/process', 'CartController@process')->name('cart.process');
-Route::post('/pos/cart/sell', 'CartController@sell')->name('cart.sell');
+Route::get('/pos/cart/sell', 'CartController@sell')->name('cart.sell');
 Route::post('/pos/cart/store', 'CartController@add')->name('cart.add');
 Route::post('/pos/cart/update', 'CartController@update')->name('cart.update');
 Route::get('/pos/sales/receipt', 'CartController@receipt')->name('cart.salesReceipt');
