@@ -58,6 +58,7 @@
   "author": "Ekojoka Christolight Idakwo",
   "license": "MIT",
   "dependencies": {
+    "composer": "^4.1.0",
     "node-php-server": "^0.1.2"
   },
   "devDependencies": {
