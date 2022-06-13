@@ -4,17 +4,17 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="{{ secure_asset("img/brand/favicon.png") }}">
+	<link rel="icon" type="image/png" href="{{ asset("img/brand/favicon.png") }}">
 
 	<!-- CSRF Token -->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title><?php echo $title ?? 'Home' ?> | EmiFoodLovers</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Styles -->
-	<link href="{{ secure_asset('css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ secure_asset('css/theme/app.css') }}" rel="stylesheet">
-	<link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/materialdesignicons.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/theme/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/materialdesignicons.min.css') }}" rel="stylesheet">
 
 </head>
 <body class="auth-page">
@@ -27,9 +27,9 @@
 @yield("content")
 
 <!-- Scripts -->
-<script src="{{ secure_asset('js/jquery.min.js') }}"></script>
-<script src="{{ secure_asset('js/popper.min.js') }}"></script>
-<script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ secure_asset('js/theme/custom.min.js') }}"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/theme/custom.min.js') }}"></script>
 </body>
 </html>

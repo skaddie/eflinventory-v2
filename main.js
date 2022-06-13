@@ -10,7 +10,7 @@ app.on('ready', () => {
 
 var phpServer = require('node-php-server');
 const port = 8900, host = '127.0.0.1';
-const serverUrl = `http://${host}:${port}`;
+const serverUrl = `https://${host}:${port}`;
 
 
 let mainWindow;
