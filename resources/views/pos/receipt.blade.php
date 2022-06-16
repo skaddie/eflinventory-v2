@@ -8,7 +8,7 @@
     </head>
 
     <body style="padding: 0 15px;">
-        <h2 class="text-center text-uppercase">EmiFoodLovers Market</h2>
+        <h2 class="text-center text-uppercase">Sandria's Delicious Concept</h2>
         <address class="text-center">
             21 Akpajo Road, Eleme<br>Port-Harcourt, Rivers
         </address>

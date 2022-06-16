@@ -8,7 +8,7 @@
 
 	<!-- CSRF Token -->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
-	<title><?php echo $title ?? 'Home' ?> | EmiFoodLovers</title>
+	<title><?php echo $title ?? 'Home' ?> Sandria's Delicious Concept</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Styles -->
 	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>POS | EmiFoodLovers</title>
+    <title>POS | Sandria's Delicious Concept</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap-glyphicons.min.css') }}" rel="stylesheet">
