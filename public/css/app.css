@@ -50,7 +50,17 @@ span.select2 {
 /*==============================================================
  POS Window
  ============================================================== */
-
+ @media (max-width: 400px) {
+    .pos .screen .left-pane {
+        width: 100%!important;
+        bottom: 50%!important;
+    }
+    .pos .screen .right-pane {
+        top: 50%!important;
+        width: 100%;
+        left: 0!important;
+    }
+  }
 .pos-body {
     min-width: 940px !important;
     margin: 0 auto;
@@ -889,14 +899,3 @@ span.select2 {
 
 
 
-@media (max-width: 400px) {
-    .pos .screen .left-pane {
-        width: 100%!important;
-        bottom: 50%!important;
-    }
-    .pos .screen .right-pane {
-        top: 50%!important;
-        width: 100%;
-        left: 0!important;
-    }
-  }
