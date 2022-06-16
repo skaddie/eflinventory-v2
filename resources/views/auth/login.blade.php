@@ -8,7 +8,7 @@
 
             <div class="mb-4 animated bounceIn" style="width: 200px; margin: 0 auto;">
                 <div class="" style="width: 100%; text-align: center;">
-                    <span class="img-fluid justify-content-center">Sandria's Delicious Concept | POS</span>
+                    <span class="img-fluid justify-content-center">Sandria's Delicious Concept</span>
                 </div>
             </div>
 
