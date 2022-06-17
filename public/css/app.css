@@ -61,14 +61,17 @@ span.select2 {
         width: 100%;
         left: 0!important;
     }
-    .pos .num-pad button{
-        width:40px!important;
-    }
+    /* .pos .num-pad button{
+        width:60px!important;
+    } */
     .pos .num-pad{
-        width:180px!important;
+        width:210px!important;
     }
     .pos .action-pad{
         width: 140px!important;
+    }
+    .pos .search-box{
+        width: auto;
     }
   }
 
