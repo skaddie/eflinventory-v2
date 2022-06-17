@@ -61,6 +61,15 @@ span.select2 {
         width: 100%;
         left: 0!important;
     }
+    .pos .num-pad button{
+        width:40px!important;
+    }
+    .pos .num-pad{
+        width:180px!important;
+    }
+    .pos .action-pad{
+        width: 140px!important;
+    }
   }
 
 .pos-body {
